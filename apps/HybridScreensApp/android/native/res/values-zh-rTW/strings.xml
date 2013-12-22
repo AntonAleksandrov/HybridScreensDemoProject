@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<resources>
+  <string name="app_name">HybridScreensApp</string>  
+  <string name="push_notification_title">HybridScreensApp</string>
+  
+  <!-- General purpose strings -->
+  <string name="error">錯誤</string>
+  <string name="close">關閉</string>
+  <string name="cancel">取消</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="worklightSettingsTitle">Worklight 設定</string>
+  <string name="summaryWLServerUrl">變更伺服器 URL：http[s]://domain 或 IP address[:port][/context root]</string>
+  <string name="titleWLServerUrl">伺服器 URL</string>
+  <string name="networkSettingsTitleWLServerUrl">網路設定</string>
+  <string name="OKTitleWLServerUrl">確定</string>
+  <string name="titleInvalidWLServerUrl">無效的 URL</string>
+  <string name="errorInvalidWLServerUrl">%1$s 不是有效的 URL。有效的格式為 http[s]://domain 或 IP address[:port][/context root]</string>
+  <string name="serverAddress">伺服器位址</string>
+  <string name="changeServerAddress">變更伺服器 URL</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Web 資源</string>
+  <string name="wlAppIdTitle">應用程式 ID</string>
+  <string name="wlAppVersionTitle">應用程式版本</string>
+  <string name="downloadingWebResourcesMessage">正在下載應用程式資源（進度單位為 KB）</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">正在下載應用程式更新（進度單位為 KB）</string>
+  <string name="kb">kb</string>
+  
+  <!-- Test Resources Checksum -->
+  <string name="testResourcesChecksumErrorMessage">應用程式發生內部錯誤。請解除安裝再重新安裝該應用程式。</string>
+  
+</resources>

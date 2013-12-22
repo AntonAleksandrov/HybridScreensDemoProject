@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+		<title></title>
+		<script src="default/worklight/cordova.js"></script>
+		<script src="default/js/skinLoader.js"></script>
+		<script src="default/js/messages.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+		<script>
+			function loadSkin(){
+				document.addEventListener("deviceready", function() {
+					cordova.exec(exitOnScreenLoaderSuccess, exitOnScreenLoaderSuccess, "Utils", "readPref", ["exitOnSkinLoader"]);
+				}, false);
+			}
+			
+			function exitOnScreenLoaderSuccess(exitOnSkinLoader){
+				if (eval(exitOnSkinLoader)) {
+					cordova.exec(null, null, "App", "exitApp", []);
+				} else {
+					try{
+						cordova.exec(null, null, "NativeBusyIndicator", "show", [WL.ClientMessages.loading]);
+					} catch (e) {}
+					var skinName = "default";
+					if (typeof window.getSkinName == "function") {
+						skinName = getSkinName();
+					}
+					cordova.exec(null, null, "Utils", "writePref", ["exitOnSkinLoader", "true"]);
+					cordova.exec(null, null, "Utils", "writePref", ["wlSkinName", skinName]);
+					cordova.exec(null, null, "Utils", "loadSkin", [skinName,"index.html"]);
+				}
+			};
+		</script>
+	</head>
+	<body onload="loadSkin()" style="background-color: black"></body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE HTML><html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <title>index</title>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+        <link href="worklight/worklight.css" rel="stylesheet">
+        <link href="images/favicon.png" rel="shortcut icon">
+        <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+        <link href="jquery.mobile/jquery.mobile-1.3.2.css" rel="stylesheet">
+        <script>
+		// Define WL namespace.
+		var WL = WL ? WL : {};
+		/**
+		 * WLClient configuration variables.
+		 * Values are injected by the deployer that packs the gadget.
+		 */
+		WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "HybridScreensApp",
+   "APP_ID": "HybridScreensApp",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.0",
+   "ENVIRONMENT": "iphone",
+   "LOGIN_DISPLAY_TYPE": "embedded",
+   "WORKLIGHT_NATIVE_VERSION": "4155040770",
+   "WORKLIGHT_PLATFORM_VERSION": "6.1.0.00.20131126-0630",
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/HybridScreensApp\/iphone\/"
+};</script>
+		<script src="worklight/cordova.js"></script>
+		<script src="worklight/wljq.js"></script>
+		<script src="worklight/worklight.js"></script>
+		<script src="worklight/checksum.js"></script>
+		<script>window.$ = window.jQuery = WLJQ;</script>
+    		<script src="jquery.mobile/jquery.mobile-1.3.2.js"></script>
+    </head>
+    <body style="display: none;">
+        <div data-role="page" data-title="page1" id="page1">
+            <div data-role="content">
+                <h3>I am page 1</h3>
+                <ul data-role="listview">
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>
+                    <li>item4</li>
+                    <li>item5</li>
+                    <li>item6</li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="page" data-title="page2" id="page2">
+            <div data-role="content">
+                <h3>I am page 2</h3>
+                <label for="slider-1">Input slider:</label>
+					<input id="slider-1" max="100" min="0" name="slider-1" type="range" value="60">
+                <fieldset data-mini="true" data-role="controlgroup">
+                    <input checked id="radio-mini-1" name="radio-mini" type="radio" value="choice-1">
+				    	<label for="radio-mini-1">Credit</label>
+						<input id="radio-mini-2" name="radio-mini" type="radio" value="choice-2">
+				    	<label for="radio-mini-2">Debit</label>
+				    	<input id="radio-mini-3" name="radio-mini" type="radio" value="choice-3">
+				    	<label for="radio-mini-3">Cash</label>
+                </fieldset>
+            </div>
+        </div>
+        <div data-role="page" data-title="page3" id="page3">
+            <div data-role="content">
+                <h3>I am page 3</h3>
+                <label class="select" for="select-choice-0">Shipping method:</label>
+					<select id="select-choice-0" name="select-choice-0">
+					   <option value="standard">Standard: 7 day</option>
+					   <option value="rush">Rush: 3 days</option>
+					   <option value="express">Express: next day</option>
+					   <option value="overnight">Overnight</option>
+					</select>
+            </div>
+        </div>
+        <script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    		<script src="js/MyHybridBridge.js"></script>
+    		<script src="js/NativeEventsListener.js"></script>
+    </body>
+</html>

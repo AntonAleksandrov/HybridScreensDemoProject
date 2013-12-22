@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<resources>
+  <string name="app_name">HybridScreensApp</string>  
+  <string name="push_notification_title">HybridScreensApp</string>
+  
+  <!-- General purpose strings -->
+  <string name="error">Erreur</string>
+  <string name="close">Fermer</string>
+  <string name="cancel">Annuler</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="worklightSettingsTitle">Paramètres Worklight</string>
+  <string name="summaryWLServerUrl">Changer l\'adresse URL du serveur : http[s]://domaine ou adresse IP[:port][/racine de contexte]</string>
+  <string name="titleWLServerUrl">Adresse URL du serveur</string>
+  <string name="networkSettingsTitleWLServerUrl">Paramètres réseau</string>
+  <string name="OKTitleWLServerUrl">OK</string>
+  <string name="titleInvalidWLServerUrl">Adresse URL non valide</string>
+  <string name="errorInvalidWLServerUrl">%1$s n\'est pas une adresse URL valide. Le format admis est http[s]://domaine ou adresse IP[:port][/racine de contexte]</string>
+  <string name="serverAddress">Adresse du serveur</string>
+  <string name="changeServerAddress">Changer l\'adresse URL du serveur</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Ressources Web</string>
+  <string name="wlAppIdTitle">ID de l\'application</string>
+  <string name="wlAppVersionTitle">Version de l\'application</string>
+  <string name="downloadingWebResourcesMessage">Téléchargement des ressources de l\'application (progression en kilooctets)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">Téléchargement de la mise à jour de l\'application (progression en kilooctets)</string>
+  <string name="kb">ko</string>
+  
+  <!-- Test Resources Checksum -->
+  <string name="testResourcesChecksumErrorMessage">L\'application a rencontré une erreur interne. Désinstallez l\'application, puis réinstallez-la.</string>
+  
+</resources>

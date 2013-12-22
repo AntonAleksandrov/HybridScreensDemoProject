@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PII user facing -->
+<resources>
+  <string name="app_name">HybridScreensApp</string>  
+  <string name="push_notification_title">HybridScreensApp</string>
+  
+  <!-- General purpose strings -->
+  <string name="error">Error</string>
+  <string name="close">Close</string>
+  <string name="cancel">Cancel</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="worklightSettingsTitle">Worklight Settings</string>
+  <string name="summaryWLServerUrl">Change the server URL: http[s]://domain or IP address[:port][/context root]</string>
+  <string name="titleWLServerUrl">Server URL</string>
+  <string name="networkSettingsTitleWLServerUrl">Network Settings</string>
+  <string name="OKTitleWLServerUrl">OK</string>
+  <string name="titleInvalidWLServerUrl">Invalid URL</string>
+  <string name="errorInvalidWLServerUrl">%1$s is not a valid URL. Valid format is http[s]://domain or IP address[:port][/context root]</string>
+  <string name="serverAddress">Server Address</string>
+  <string name="changeServerAddress">Change server URL</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Web Resources</string>
+  <string name="wlAppIdTitle">App ID</string>
+  <string name="wlAppVersionTitle">App Version</string>
+  <string name="downloadingWebResourcesMessage">Downloading application resources (progress in kilobytes)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">Downloading application update (progress in kilobytes)</string>
+  <string name="kb">kb</string>
+  
+  <!-- Test Resources Checksum -->
+  <string name="testResourcesChecksumErrorMessage">The application encountered an internal error. Please uninstall the application and then re-install it.</string>
+  
+</resources>

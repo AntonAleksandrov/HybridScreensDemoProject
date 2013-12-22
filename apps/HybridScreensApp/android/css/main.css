@@ -1,0 +1,10 @@
+
+/* this CSS file extends the application CSS file found under common\css */
+
+/* body should stretch in an Android application */
+html, body {
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	overflow: auto;
+}

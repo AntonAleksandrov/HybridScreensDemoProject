@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<resources>
+  <string name="app_name">HybridScreensApp</string>  
+  <string name="push_notification_title">HybridScreensApp</string>
+  
+  <!-- General purpose strings -->
+  <string name="error">Error</string>
+  <string name="close">Cerrar</string>
+  <string name="cancel">Cancelar</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="worklightSettingsTitle">Valores de Worklight</string>
+  <string name="summaryWLServerUrl">Cambie el URL del servidor: http[s]://dominio o la dirección del IP[:puerto][/raíz de contexto]</string>
+  <string name="titleWLServerUrl">URL del servidor</string>
+  <string name="networkSettingsTitleWLServerUrl">Valores de red</string>
+  <string name="OKTitleWLServerUrl">Aceptar</string>
+  <string name="titleInvalidWLServerUrl">URL no válido</string>
+  <string name="errorInvalidWLServerUrl">%1$s no es un URL válido. El formato válido es http[s]://dominio o dirección IP[:puerto][/raíz de contexto]</string>
+  <string name="serverAddress">Dirección del servidor</string>
+  <string name="changeServerAddress">Cambiar URL del servidor</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Recursos web</string>
+  <string name="wlAppIdTitle">ID de aplicación</string>
+  <string name="wlAppVersionTitle">Versión de aplicación</string>
+  <string name="downloadingWebResourcesMessage">Descarga de recursos de aplicaciones (progreso en kilobytes)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">Descarga de la actualización de la aplicación (progreso en kilobytes)</string>
+  <string name="kb">kb</string>
+  
+  <!-- Test Resources Checksum -->
+  <string name="testResourcesChecksumErrorMessage">La aplicación ha encontrado un error interno. Desinstale la aplicación y vuelva a instalarla.</string>
+  
+</resources>

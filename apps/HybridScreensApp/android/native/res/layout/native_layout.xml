@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/page1button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Page1"
+        android:tag="1"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/page2button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Page2"
+        android:tag="2"
+        android:layout_weight="1"/>
+    
+    <Button
+        android:id="@+id/page3button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Page3"
+        android:tag="3"
+        android:layout_weight="1"/>
+    
+</LinearLayout>

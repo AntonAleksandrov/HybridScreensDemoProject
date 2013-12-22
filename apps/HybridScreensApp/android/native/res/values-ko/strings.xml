@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<resources>
+  <string name="app_name">HybridScreensApp</string>  
+  <string name="push_notification_title">HybridScreensApp</string>
+  
+  <!-- General purpose strings -->
+  <string name="error">오류</string>
+  <string name="close">닫기</string>
+  <string name="cancel">취소</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="worklightSettingsTitle">Worklight 설정</string>
+  <string name="summaryWLServerUrl">서버 URL 변경: http[s]://domain 또는 IP address[:port][/context root]</string>
+  <string name="titleWLServerUrl">서버 URL</string>
+  <string name="networkSettingsTitleWLServerUrl">네트워크 설정</string>
+  <string name="OKTitleWLServerUrl">확인</string>
+  <string name="titleInvalidWLServerUrl">올바르지 않은 URL</string>
+  <string name="errorInvalidWLServerUrl">%1$s이(가) 올바르지 않은 URL입니다. 올바른 형식은 http[s]://domain 또는 IP address[:port][/context root]입니다. </string>
+  <string name="serverAddress">서버 주소</string>
+  <string name="changeServerAddress">서버 URL 변경</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">웹 자원</string>
+  <string name="wlAppIdTitle">애플리케이션 ID</string>
+  <string name="wlAppVersionTitle">애플리케이션 버전</string>
+  <string name="downloadingWebResourcesMessage">애플리케이션 자원 다운로드 중(KB 단위로 진행)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">애플리케이션 업데이트 다운로드 중(KB 단위로 진행)</string>
+  <string name="kb">kb</string>
+  
+  <!-- Test Resources Checksum -->
+  <string name="testResourcesChecksumErrorMessage">애플리케이션에 내부 오류가 발생했습니다. 애플리케이션을 설치 제거한 후 다시 설치하십시오. </string>
+  
+</resources>

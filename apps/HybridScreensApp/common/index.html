@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>index</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    		<link rel="shortcut icon" href="images/favicon.png">
+    		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    		<link rel="stylesheet" href="jquery.mobile/jquery.mobile-1.3.2.css">
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    		<script src="jquery.mobile/jquery.mobile-1.3.2.js"></script>
+    	</head>
+    	<body style="display: none;">
+	    	
+	    	<div data-role="page" id="page1" data-title="page1">
+	    		<div data-role="content">
+	    			<h3>I am page 1</h3>
+					<ul data-role="listview">
+						<li>item1</li>
+						<li>item2</li>
+						<li>item3</li>
+						<li>item4</li>
+						<li>item5</li>
+						<li>item6</li>
+					</ul>
+	    		</div>
+	    	</div>
+	
+	    	<div data-role="page" id="page2" data-title="page2">
+	    		<div data-role="content">
+	    			<h3>I am page 2</h3>
+	    			<label for="slider-1">Input slider:</label>
+					<input type="range" name="slider-1" id="slider-1" value="60" min="0" max="100" />
+	    			<fieldset data-role="controlgroup" data-mini="true">
+				    	<input type="radio" name="radio-mini" id="radio-mini-1" value="choice-1" checked="checked" />
+				    	<label for="radio-mini-1">Credit</label>
+				
+						<input type="radio" name="radio-mini" id="radio-mini-2" value="choice-2"  />
+				    	<label for="radio-mini-2">Debit</label>
+				    	
+				    	<input type="radio" name="radio-mini" id="radio-mini-3" value="choice-3"  />
+				    	<label for="radio-mini-3">Cash</label>
+					</fieldset>
+	    		</div>
+	    	</div>
+	    	
+	    	<div data-role="page" id="page3" data-title="page3">
+	    		<div data-role="content">
+	    			<h3>I am page 3</h3>
+					<label for="select-choice-0" class="select">Shipping method:</label>
+					<select name="select-choice-0" id="select-choice-0">
+					   <option value="standard">Standard: 7 day</option>
+					   <option value="rush">Rush: 3 days</option>
+					   <option value="express">Express: next day</option>
+					   <option value="overnight">Overnight</option>
+					</select>
+	    		</div>
+	    	</div>
+
+    		<script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    		<script src="js/MyHybridBridge.js"></script>
+    		<script src="js/NativeEventsListener.js"></script>
+    	</body>
+</html>

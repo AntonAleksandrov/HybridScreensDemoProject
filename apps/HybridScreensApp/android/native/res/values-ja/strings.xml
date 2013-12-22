@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<resources>
+  <string name="app_name">HybridScreensApp</string>  
+  <string name="push_notification_title">HybridScreensApp</string>
+  
+  <!-- General purpose strings -->
+  <string name="error">エラー</string>
+  <string name="close">閉じる</string>
+  <string name="cancel">キャンセル</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="worklightSettingsTitle">Worklight 設定</string>
+  <string name="summaryWLServerUrl">サーバー URL の変更: http[s]://ドメインまたは IP アドレス[:ポート][/コンテキスト・ルート]</string>
+  <string name="titleWLServerUrl">サーバー URL</string>
+  <string name="networkSettingsTitleWLServerUrl">ネットワーク設定</string>
+  <string name="OKTitleWLServerUrl">OK</string>
+  <string name="titleInvalidWLServerUrl">無効な URL</string>
+  <string name="errorInvalidWLServerUrl">%1$s は、有効な URLではありません。 有効な形式は、http[s]://ドメインまたは IP アドレス[:ポート][/コンテキスト・ルート] です。</string>
+  <string name="serverAddress">サーバー・アドレス</string>
+  <string name="changeServerAddress">サーバー URL の変更</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Web リソース</string>
+  <string name="wlAppIdTitle">アプリケーション ID</string>
+  <string name="wlAppVersionTitle">アプリケーション・バージョン</string>
+  <string name="downloadingWebResourcesMessage">アプリケーション・リソースをダウンロード中 (進行状況 (キロバイト単位))</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">アプリケーション更新をダウンロード中 (進行状況 (キロバイト単位))</string>
+  <string name="kb">kb</string>
+  
+  <!-- Test Resources Checksum -->
+  <string name="testResourcesChecksumErrorMessage">アプリケーションで内部エラーが発生しました。 アプリケーションをアンインストールしてから再インストールしてください。</string>
+  
+</resources>

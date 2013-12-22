@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+<resources>
+  <string name="app_name">HybridScreensApp</string>  
+  <string name="push_notification_title">HybridScreensApp</string>
+  
+  <!-- General purpose strings -->
+  <string name="error">Ошибка</string>
+  <string name="close">Закрыть</string>
+  <string name="cancel">Отмена</string>
+  
+  <!--  Settings Screen strings -->
+  <string name="worklightSettingsTitle">Настройки Worklight</string>
+  <string name="summaryWLServerUrl">Измените URL-адрес сервера: http[s]://домен или IP-адрес[:порт][/корневой контекст]</string>
+  <string name="titleWLServerUrl">URL сервера</string>
+  <string name="networkSettingsTitleWLServerUrl">Параметры сети</string>
+  <string name="OKTitleWLServerUrl">OK</string>
+  <string name="titleInvalidWLServerUrl">Недопустимый URL</string>
+  <string name="errorInvalidWLServerUrl">%1$s не является допустимым URL-адресом. Допустимым форматом является следующий: http[s]://домен или IP-адрес[:порт][/корневой контекст]</string>
+  <string name="serverAddress">Адрес сервера</string>
+  <string name="changeServerAddress">Измените URL-адрес сервера</string>
+  
+  <!--  Settings Screen: Web Resources category -->
+  <string name="wlWebResourcesCategory">Веб-ресурсы</string>
+  <string name="wlAppIdTitle">ИД приложения</string>
+  <string name="wlAppVersionTitle">Версия приложения</string>
+  <string name="downloadingWebResourcesMessage">Загрузка ресурсов приложения (загружено килобайт)</string>
+  
+  <!-- Direct Update -->
+  <string name="directUpdateDownloadingMessage">Загрузка обновления приложения (загружено килобайт)</string>
+  <string name="kb">КБ</string>
+  
+  <!-- Test Resources Checksum -->
+  <string name="testResourcesChecksumErrorMessage">Во время выполнения приложения произошла внутренняя ошибка. Удалите приложение из системы и установите заново.</string>
+  
+</resources>

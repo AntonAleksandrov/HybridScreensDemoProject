@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/cordova.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-core-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-mapper-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/uicandroid.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/worklight-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/guava.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gcm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-codec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bcprov.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cordova_plugins.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/android-asyn-http.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>protocol</key> 
+	<string>http</string>
+	<key>host</key>
+	<string>10.0.0.8</string>
+	<key>port</key>
+	<string>10080</string>
+	<key>wlServerContext</key>
+	<string>/HybridScreensDemoProject/</string>
+	<key>application id</key>
+	<string>HybridScreensApp</string>
+	<key>application version</key>
+	<string>1.0</string>
+	<key>environment</key>
+	<string>iphone</string>
+	<key>buildtime</key>
+	<string></string>
+	<key>authenticitySharedData</key>
+	<string>${authenticitySharedData}</string>
+	<key>testWebResourcesChecksum</key>
+	<string>false</string>
+	<key>ignoredFileExtensions</key>
+	<string></string>
+	<key>wlMainFile</key>
+	<string>index.html</string>
+	<key>wlUid</key>
+	<string>WBXxR7YMmht9kg3Za6DeXg==</string>			
+	<key>platformVersion</key>
+	<string>6.1.0.00.20131126-0630</string>
+</dict>
+</plist>
